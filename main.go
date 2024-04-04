@@ -1,4 +1,4 @@
-package sleepingbarber
+package main
 
 import (
 	"fmt"
@@ -14,7 +14,7 @@ var arrivalRate = 100
 var cutDuration = 1000 * time.Millisecond
 var timeOpen = 10 * time.Second
 
-func Problem() {
+func main() {
 	// send our random number generator
 	rand.Seed(time.Now().UnixNano())
 
@@ -39,13 +39,13 @@ func Problem() {
 
 	color.Green("The shop is open for the day!")
 
-	// add barbers
+	// add barbers (though problem ask for 1 barber only, you can add as much as you wish in this code)
 	shop.addBarber("Franklin")
-	shop.addBarber("Trevor")
-	shop.addBarber("Michael")
-	shop.addBarber("CJ")
-	shop.addBarber("Tommy")
-	shop.addBarber("Lucy")
+	//shop.addBarber("Trevor")
+	//shop.addBarber("Michael")
+	//shop.addBarber("CJ")
+	//shop.addBarber("Tommy")
+	//shop.addBarber("Lucy")
 
 	// start the barbershop as a goroutine
 	shopClosing := make(chan bool)
