@@ -1,4 +1,4 @@
-package sleepingbarber
+package main
 
 import (
 	"time"
