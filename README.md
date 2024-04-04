@@ -7,8 +7,8 @@ The ClientsChan channel is used to communicate between the clients and the barbe
 This solution ensures that the barber is always woken up when a customer arrives and that customers are never left waiting if there are empty chairs in the waiting room.
 
 Here are some additional details about the sleeping barber problem:
-• The problem is often attributed to Edsger Dijkstra, one of the pioneers in computer science.
-• The problem is a classical problem of process synchronization.
-• The problem is not just a theoretical puzzle; it mirrors real-world challenges in system design and development.
-• The problem can be solved using a variety of different methods, including semaphores, mutexes, and channels.
-• The problem is a good example of how to use concurrency to solve a real-world problem.
+1. The problem is often attributed to Edsger Dijkstra, one of the pioneers in computer science.
+1. The problem is a classical problem of process synchronization.
+1. The problem is not just a theoretical puzzle; it mirrors real-world challenges in system design and development.
+1. The problem can be solved using a variety of different methods, including semaphores, mutexes, and channels.
+1. The problem is a good example of how to use concurrency to solve a real-world problem.
